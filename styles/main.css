@@ -69,8 +69,6 @@ p {
 }
 
 @media screen and (min-width: 800px) {
-
-
   h1 {
     font-size: 4rem;
   }
@@ -149,6 +147,7 @@ h3 {
 }
 
 /* =========== Hero ============ */
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -241,5 +240,57 @@ h3 {
 
   .about-img {
     position: relative;
+  }
+}
+
+/* =========== Services ============ */
+
+.services {
+  background: var(--isabelline);
+}
+
+.services {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.service-icon {
+  color: var(--silver-pink);
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.service-text {
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-img {
+  border: 5px solid var(--silver-pink);
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .services-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .service {
+    flex: 0 0 calc(50% - 1rem);
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .service {
+    flex: 0 0 calc(33.3% - 1rem);
   }
 }
