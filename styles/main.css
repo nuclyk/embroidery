@@ -146,6 +146,56 @@ h3 {
   }
 }
 
+/* =========== Navbar ============ */
+.logo {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: var(--silver-pink);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--isabelline);
+  box-shadow: var(--dark-shadow);
+  z-index: 1000;
+}
+
+.nav-icons {
+  display: none;
+}
+
+.nav-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-toggle {
+  background: transparent;
+  border: transparent;
+  font-size: 1.5rem;
+  color: var(--space-cadet);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.nav-toggle:hover {
+  transform: scale(1.2);
+}
+
 /* =========== Hero ============ */
 
 .hero {
