@@ -161,7 +161,7 @@ h3 {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--isabelline);
+  background: white;
   box-shadow: var(--dark-shadow);
   z-index: 1000;
 }
@@ -194,6 +194,34 @@ h3 {
 
 .nav-toggle:hover {
   transform: scale(1.2);
+}
+
+.nav-link {
+  display: block;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  color: var(--space-cadet);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: var(--isabelline);
+  background-color: var(--silver-pink);
+  padding-left: 2.25rem;
+}
+
+
+/* 280px */
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  transform: var(--transition);
+}
+
+.show-links {
+  height: 280px;
 }
 
 /* =========== Hero ============ */
